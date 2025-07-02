@@ -1,0 +1,26 @@
+Instructor: In this lecture, we will get introduced to what Ansible is.
+If you're a systems engineer or IT administrator or just anybody working in IT, you're probably involved in doing a lot of repetitive tasks in your environment, whether it be sizing and creating new hosts or virtual machines every day, applying configurations on them, patching in hundreds of servers, migrations, deploying applications, or even performing security and compliance audits.
+All of these very repetitive tasks involve execution of hundreds of commands on hundreds of different servers while maintaining the right sequence of events with system reboots and whatnot in between.
+Some people develop scripts to automate these tasks but that requires coding skills and regular maintenance of these scripts, and a lot of time to put these scripts together on the first place.
+That's where Ansible helps.
+Ansible is a powerful IT automation tool that you can learn quickly.
+It's simple enough for everyone in IT, yet powerful enough to automate even the most complex deployments.
+In the past, something that took developing a complex script, now takes just a few lines of instruction in an Ansible automation playbook.
+Whether you want to make that happen on your local host or on all of your database servers or all of your web servers on cloud or just the ones on your DR environment, all it takes is modifying one line.
+Now, don't worry about the playbook itself or its syntax for now.
+We will get into that in a bit, and we have lots of fun exercises coming up that will get you all set with this in no time.
+Let's take a look at a simple use case.
+Imagine you have a number of hosts in your environment that you would like to restart in a particular order.
+Some of them are web servers and others are database servers so you would like to power down the web servers first, followed by the database servers, and then power up the database servers and then the web servers.
+You could write an Ansible playbook to get this done in a matter of minutes and simply invoke the Ansible playbook every time you wish to restart your application.
+Let's take a look at another example.
+In this case, we are setting up a complex infrastructure that spans across public and private clouds and that includes hundreds of VMs.
+With Ansible, you could provision VMs on public clouds like Amazon and as well as private cloud environments like VMware, and move on to configuring applications on those and setting up communication between them, such as modifying configuration files, installing applications on them, configuring firewall rules, et cetera.
+There are a lot of built-in modules available in Ansible that supports these kind of operations.
+You can easily integrate Ansible with the rest of your environment so that you can pull information to be used in the automation process, such as data from a CMDB database to get the list of VMs you wanna target or you can configure Ansible to trigger automation automatically when from tools like ServiceNow, when a workflow gets approved.
+The Ansible documentation pages hosted at docs.
+ansible.
+com are comprehensive and contains all information required to get started with Ansible, and there are hundreds of examples of playbooks in these pages.
+We will be referring to these while setting up and installing Ansible.
+So that's a quick introduction to what Ansible is, why you might want to consider it and what it can do.
+Going forward, we will look at how to quickly get started by setting up an Ansible lab environment,
