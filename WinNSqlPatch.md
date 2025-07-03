@@ -1,5 +1,4 @@
-Perfect — you’re describing a **controlled and intelligent patching flow** with:
-
+## Full Workflow steps and code for Windows and SQL Server patching.
 * Pre-validation logic
 * Conditional execution (based on whether patch is needed)
 * Clear error handling and success tracking
@@ -237,9 +236,7 @@ In `pre_validate_sql.yml`, add:
 
 Would you like:
 
-* A **complete zip** or GitHub repo with this layout?
-* Email integration via authenticated SMTP (e.g., Outlook 365)?
-* Logging to centralized log server (Splunk, ELK, etc)?
-* Integration with **Slack, Teams**, or **ServiceNow**?
-
-Let me know and I’ll customize it for your environment.
+* A **complete zip** or GitHub repo with this layout
+* Email integration via authenticated SMTP (e.g., Outlook 365)
+* Logging to centralized log server (Splunk, ELK, etc)
+* Integration with **Slack, Teams**, or **ServiceNow**
